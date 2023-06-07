@@ -3,15 +3,12 @@ body {
 }
 
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
 
 }
 
 .hero {
-    background-image: url("/src/image/bg3.jpg");
-    /*background-color: #222234;*/
+    background-color: #0f0f11;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -25,6 +22,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+    padding-right: 30px;
 }
 
 ul {
@@ -44,6 +42,10 @@ h1 {
     font-size: 90px;
     margin: 0;
 
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -91,10 +93,45 @@ p {
 }
 
 .logo {
-    height: 150px;
-    margin: 0;
+    height: 200px;
 }
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display:flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #c5bebe;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
 }
